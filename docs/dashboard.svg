@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="786" viewBox="0 0 1240 786" font-family="Inter,Roboto,Helvetica,Arial,sans-serif">
+<rect width="1240" height="786" fill="#0b0c0e"/>
+<text x="24" y="30" fill="#d8d9da" font-size="18" font-weight="700">NGBS iCON — Heating &amp; Cooling</text>
+<text x="1216" y="30" fill="#8e8e8e" font-size="12" text-anchor="end">Last 24 hours · sample data</text>
+<rect x="24" y="46" width="188.66666666666666" height="78" rx="3" fill="#15243a" stroke="#23272e"/>
+<text x="118.33333333333333" y="68" fill="#8e8e8e" font-size="12" text-anchor="middle">System Mode</text>
+<text x="118.33333333333333" y="101" fill="#5B8FF9" font-size="26" font-weight="700" text-anchor="middle">Cooling</text>
+<rect x="224.66666666666666" y="46" width="188.66666666666666" height="78" rx="3" fill="#12271f" stroke="#23272e"/>
+<text x="319" y="68" fill="#8e8e8e" font-size="12" text-anchor="middle">Comfort / Eco</text>
+<text x="319" y="101" fill="#46B78B" font-size="26" font-weight="700" text-anchor="middle">Comfort</text>
+<rect x="425.3333333333333" y="46" width="188.66666666666666" height="78" rx="3" fill="#181b1f" stroke="#23272e"/>
+<text x="519.6666666666666" y="68" fill="#8e8e8e" font-size="12" text-anchor="middle">Water / Flow Temp</text>
+<text x="519.6666666666666" y="101" fill="#F2A63B" font-size="26" font-weight="700" text-anchor="middle">24.3°C</text>
+<rect x="626" y="46" width="188.66666666666666" height="78" rx="3" fill="#181b1f" stroke="#23272e"/>
+<text x="720.3333333333334" y="68" fill="#8e8e8e" font-size="12" text-anchor="middle">External Temp</text>
+<text x="720.3333333333334" y="101" fill="#46B78B" font-size="26" font-weight="700" text-anchor="middle">20.9°C</text>
+<rect x="826.6666666666666" y="46" width="188.66666666666666" height="78" rx="3" fill="#181b1f" stroke="#23272e"/>
+<text x="921" y="68" fill="#8e8e8e" font-size="12" text-anchor="middle">Pump</text>
+<text x="921" y="101" fill="#8e8e8e" font-size="26" font-weight="700" text-anchor="middle">Idle</text>
+<rect x="1027.3333333333333" y="46" width="188.66666666666666" height="78" rx="3" fill="#12271f" stroke="#23272e"/>
+<text x="1121.6666666666665" y="68" fill="#8e8e8e" font-size="12" text-anchor="middle">Faults</text>
+<text x="1121.6666666666665" y="101" fill="#46B78B" font-size="26" font-weight="700" text-anchor="middle">OK</text>
+<rect x="24" y="140" width="588" height="250" rx="3" fill="#181b1f" stroke="#23272e"/>
+<text x="36" y="160" fill="#d8d9da" font-size="13" font-weight="600">Room Temperature</text>
+<line x1="38" y1="174" x2="476" y2="174" stroke="#2a2e35" stroke-width="1"/>
+<text x="32" y="178" fill="#8e8e8e" font-size="10" text-anchor="end">25.0</text>
+<line x1="38" y1="223.5" x2="476" y2="223.5" stroke="#2a2e35" stroke-width="1"/>
+<text x="32" y="227.5" fill="#8e8e8e" font-size="10" text-anchor="end">24.0</text>
+<line x1="38" y1="273" x2="476" y2="273" stroke="#2a2e35" stroke-width="1"/>
+<text x="32" y="277" fill="#8e8e8e" font-size="10" text-anchor="end">23.0</text>
+<line x1="38" y1="322.5" x2="476" y2="322.5" stroke="#2a2e35" stroke-width="1"/>
+<text x="32" y="326.5" fill="#8e8e8e" font-size="10" text-anchor="end">22.0</text>
+<line x1="38" y1="372" x2="476" y2="372" stroke="#2a2e35" stroke-width="1"/>
+<text x="32" y="376" fill="#8e8e8e" font-size="10" text-anchor="end">21.0</text>
+<polyline points="38.0,256.1 57.0,250.7 76.1,252.4 95.1,247.6 114.2,252.8 133.2,264.0 152.3,261.4 171.3,269.2 190.3,273.9 209.4,281.0 228.4,281.2 247.5,283.4 266.5,287.6 285.6,283.0 304.6,280.2 323.7,273.8 342.7,272.2 361.7,266.6 380.8,256.5 399.8,247.8 418.9,253.5 437.9,246.2 457.0,249.7 476.0,256.6" fill="none" stroke="#5B8FF9" stroke-width="2" stroke-linejoin="round"/>
+<rect x="492" y="172" width="12" height="3" rx="1.5" fill="#5B8FF9"/>
+<text x="510" y="177" fill="#d8d9da" font-size="11">Living Room</text>
+<text x="600" y="177" fill="#8e8e8e" font-size="11" text-anchor="end">23.3°</text>
+<polyline points="38.0,290.3 57.0,295.7 76.1,290.7 95.1,291.3 114.2,289.1 133.2,288.2 152.3,282.2 171.3,279.1 190.3,275.2 209.4,268.5 228.4,264.8 247.5,261.3 266.5,259.4 285.6,262.6 304.6,268.6 323.7,273.4 342.7,278.0 361.7,280.7 380.8,290.1 399.8,287.5 418.9,290.0 437.9,292.8 457.0,293.2 476.0,292.2" fill="none" stroke="#F2A63B" stroke-width="2" stroke-linejoin="round"/>
+<rect x="492" y="192" width="12" height="3" rx="1.5" fill="#F2A63B"/>
+<text x="510" y="197" fill="#d8d9da" font-size="11">Kitchen</text>
+<text x="600" y="197" fill="#8e8e8e" font-size="11" text-anchor="end">22.6°</text>
+<polyline points="38.0,275.0 57.0,270.0 76.1,273.0 95.1,271.3 114.2,271.0 133.2,274.2 152.3,284.7 171.3,281.5 190.3,291.5 209.4,299.7 228.4,306.0 247.5,303.2 266.5,305.8 285.6,311.6 304.6,303.4 323.7,301.6 342.7,290.4 361.7,289.9 380.8,278.8 399.8,274.3 418.9,274.0 437.9,273.6 457.0,263.2 476.0,265.2" fill="none" stroke="#46B78B" stroke-width="2" stroke-linejoin="round"/>
+<rect x="492" y="212" width="12" height="3" rx="1.5" fill="#46B78B"/>
+<text x="510" y="217" fill="#d8d9da" font-size="11">Bedroom</text>
+<text x="600" y="217" fill="#8e8e8e" font-size="11" text-anchor="end">23.2°</text>
+<polyline points="38.0,252.5 57.0,259.0 76.1,259.6 95.1,263.6 114.2,269.1 133.2,268.9 152.3,273.2 171.3,269.1 190.3,270.1 209.4,265.7 228.4,261.4 247.5,254.6 266.5,250.7 285.6,251.1 304.6,244.2 323.7,243.3 342.7,245.6 361.7,244.7 380.8,247.1 399.8,252.5 418.9,260.3 437.9,262.3 457.0,261.8 476.0,270.9" fill="none" stroke="#E36BA0" stroke-width="2" stroke-linejoin="round"/>
+<rect x="492" y="232" width="12" height="3" rx="1.5" fill="#E36BA0"/>
+<text x="510" y="237" fill="#d8d9da" font-size="11">Bathroom</text>
+<text x="600" y="237" fill="#8e8e8e" font-size="11" text-anchor="end">23.0°</text>
+<rect x="628" y="140" width="588" height="250" rx="3" fill="#181b1f" stroke="#23272e"/>
+<text x="640" y="160" fill="#d8d9da" font-size="13" font-weight="600">Room Humidity</text>
+<line x1="642" y1="174" x2="1080" y2="174" stroke="#2a2e35" stroke-width="1"/>
+<text x="636" y="178" fill="#8e8e8e" font-size="10" text-anchor="end">65.0</text>
+<line x1="642" y1="223.5" x2="1080" y2="223.5" stroke="#2a2e35" stroke-width="1"/>
+<text x="636" y="227.5" fill="#8e8e8e" font-size="10" text-anchor="end">60.0</text>
+<line x1="642" y1="273" x2="1080" y2="273" stroke="#2a2e35" stroke-width="1"/>
+<text x="636" y="277" fill="#8e8e8e" font-size="10" text-anchor="end">55.0</text>
+<line x1="642" y1="322.5" x2="1080" y2="322.5" stroke="#2a2e35" stroke-width="1"/>
+<text x="636" y="326.5" fill="#8e8e8e" font-size="10" text-anchor="end">50.0</text>
+<line x1="642" y1="372" x2="1080" y2="372" stroke="#2a2e35" stroke-width="1"/>
+<text x="636" y="376" fill="#8e8e8e" font-size="10" text-anchor="end">45.0</text>
+<polyline points="642.0,240.8 661.0,242.9 680.1,249.4 699.1,254.1 718.2,254.2 737.2,264.1 756.3,265.8 775.3,267.3 794.3,268.3 813.4,268.4 832.4,267.4 851.5,260.4 870.5,254.9 889.6,252.2 908.6,242.5 927.7,240.8 946.7,239.9 965.7,234.1 984.8,235.7 1003.8,238.4 1022.9,239.9 1041.9,250.1 1061.0,253.5 1080.0,261.4" fill="none" stroke="#5B8FF9" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1096" y="172" width="12" height="3" rx="1.5" fill="#5B8FF9"/>
+<text x="1114" y="177" fill="#d8d9da" font-size="11">Living Room</text>
+<text x="1204" y="177" fill="#8e8e8e" font-size="11" text-anchor="end">56.2%</text>
+<polyline points="642.0,272.2 661.0,266.2 680.1,266.0 699.1,259.4 718.2,257.0 737.2,254.0 756.3,253.0 775.3,249.0 794.3,240.5 813.4,244.9 832.4,249.0 851.5,246.5 870.5,252.4 889.6,253.9 908.6,264.8 927.7,264.6 946.7,266.7 965.7,271.7 984.8,274.4 1003.8,272.7 1022.9,271.5 1041.9,264.0 1061.0,258.1 1080.0,254.3" fill="none" stroke="#F2A63B" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1096" y="192" width="12" height="3" rx="1.5" fill="#F2A63B"/>
+<text x="1114" y="197" fill="#d8d9da" font-size="11">Kitchen</text>
+<text x="1204" y="197" fill="#8e8e8e" font-size="11" text-anchor="end">56.9%</text>
+<polyline points="642.0,223.4 661.0,226.1 680.1,224.5 699.1,232.6 718.2,238.0 737.2,241.3 756.3,245.5 775.3,247.9 794.3,253.4 813.4,254.2 832.4,249.1 851.5,247.3 870.5,248.7 889.6,244.6 908.6,239.6 927.7,231.8 946.7,231.5 965.7,229.4 984.8,221.5 1003.8,227.6 1022.9,224.1 1041.9,231.1 1061.0,233.2 1080.0,237.2" fill="none" stroke="#46B78B" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1096" y="212" width="12" height="3" rx="1.5" fill="#46B78B"/>
+<text x="1114" y="217" fill="#d8d9da" font-size="11">Bedroom</text>
+<text x="1204" y="217" fill="#8e8e8e" font-size="11" text-anchor="end">58.6%</text>
+<polyline points="642.0,284.4 661.0,289.5 680.1,288.0 699.1,295.5 718.2,295.6 737.2,299.6 756.3,293.7 775.3,295.9 794.3,293.3 813.4,288.6 832.4,280.8 851.5,278.4 870.5,277.5 889.6,272.7 908.6,270.7 927.7,275.9 946.7,270.4 965.7,274.2 984.8,276.8 1003.8,286.3 1022.9,290.0 1041.9,293.3 1061.0,292.4 1080.0,296.1" fill="none" stroke="#E36BA0" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1096" y="232" width="12" height="3" rx="1.5" fill="#E36BA0"/>
+<text x="1114" y="237" fill="#d8d9da" font-size="11">Bathroom</text>
+<text x="1204" y="237" fill="#8e8e8e" font-size="11" text-anchor="end">52.7%</text>
+<rect x="24" y="406" width="1192" height="190" rx="3" fill="#181b1f" stroke="#23272e"/>
+<text x="36" y="426" fill="#d8d9da" font-size="13" font-weight="600">Rooms — current state vs setpoints</text>
+<text x="40" y="450" fill="#8e8e8e" font-size="12" font-weight="600">Room</text>
+<text x="200" y="450" fill="#8e8e8e" font-size="12" font-weight="600">Temp °C</text>
+<text x="320" y="450" fill="#8e8e8e" font-size="12" font-weight="600">Cool SP</text>
+<text x="420" y="450" fill="#8e8e8e" font-size="12" font-weight="600">Heat SP</text>
+<text x="520" y="450" fill="#8e8e8e" font-size="12" font-weight="600">RH %</text>
+<text x="620" y="450" fill="#8e8e8e" font-size="12" font-weight="600">Dew °C</text>
+<text x="730" y="450" fill="#8e8e8e" font-size="12" font-weight="600">Output</text>
+<text x="860" y="450" fill="#8e8e8e" font-size="12" font-weight="600">Condensation</text>
+<line x1="36" y1="460" x2="1204" y2="460" stroke="#23272e"/>
+<text x="40" y="486" fill="#d8d9da" font-size="12.5" font-weight="600">Living Room</text>
+<text x="200" y="486" fill="#d8d9da" font-size="12.5" font-weight="400">23.1</text>
+<text x="320" y="486" fill="#d8d9da" font-size="12.5" font-weight="400">23.5</text>
+<text x="420" y="486" fill="#d8d9da" font-size="12.5" font-weight="400">21.0</text>
+<text x="520" y="486" fill="#d8d9da" font-size="12.5" font-weight="400">57.0</text>
+<text x="620" y="486" fill="#d8d9da" font-size="12.5" font-weight="400">14.1</text>
+<text x="730" y="486" fill="#d8d9da" font-size="12.5" font-weight="400">—</text>
+<text x="860" y="486" fill="#46B78B" font-size="12.5" font-weight="400">OK</text>
+<rect x="36" y="496" width="1168" height="28" fill="#ffffff08"/>
+<text x="40" y="516" fill="#d8d9da" font-size="12.5" font-weight="600">Kitchen</text>
+<text x="200" y="516" fill="#d8d9da" font-size="12.5" font-weight="400">22.9</text>
+<text x="320" y="516" fill="#d8d9da" font-size="12.5" font-weight="400">23.5</text>
+<text x="420" y="516" fill="#d8d9da" font-size="12.5" font-weight="400">21.0</text>
+<text x="520" y="516" fill="#d8d9da" font-size="12.5" font-weight="400">56.5</text>
+<text x="620" y="516" fill="#d8d9da" font-size="12.5" font-weight="400">14.0</text>
+<text x="730" y="516" fill="#d8d9da" font-size="12.5" font-weight="400">—</text>
+<text x="860" y="516" fill="#46B78B" font-size="12.5" font-weight="400">OK</text>
+<text x="40" y="546" fill="#d8d9da" font-size="12.5" font-weight="600">Bedroom</text>
+<text x="200" y="546" fill="#d8d9da" font-size="12.5" font-weight="400">22.7</text>
+<text x="320" y="546" fill="#d8d9da" font-size="12.5" font-weight="400">23.0</text>
+<text x="420" y="546" fill="#d8d9da" font-size="12.5" font-weight="400">17.0</text>
+<text x="520" y="546" fill="#d8d9da" font-size="12.5" font-weight="400">58.5</text>
+<text x="620" y="546" fill="#d8d9da" font-size="12.5" font-weight="400">14.1</text>
+<text x="730" y="546" fill="#46B78B" font-size="12.5" font-weight="400">Active</text>
+<text x="860" y="546" fill="#46B78B" font-size="12.5" font-weight="400">OK</text>
+<rect x="36" y="556" width="1168" height="28" fill="#ffffff08"/>
+<text x="40" y="576" fill="#d8d9da" font-size="12.5" font-weight="600">Bathroom</text>
+<text x="200" y="576" fill="#d8d9da" font-size="12.5" font-weight="400">23.3</text>
+<text x="320" y="576" fill="#d8d9da" font-size="12.5" font-weight="400">20.0</text>
+<text x="420" y="576" fill="#d8d9da" font-size="12.5" font-weight="400">17.0</text>
+<text x="520" y="576" fill="#d8d9da" font-size="12.5" font-weight="400">53.8</text>
+<text x="620" y="576" fill="#d8d9da" font-size="12.5" font-weight="400">13.0</text>
+<text x="730" y="576" fill="#d8d9da" font-size="12.5" font-weight="400">—</text>
+<text x="860" y="576" fill="#46B78B" font-size="12.5" font-weight="400">OK</text>
+<rect x="24" y="612" width="1192" height="162" rx="3" fill="#181b1f" stroke="#23272e"/>
+<text x="36" y="632" fill="#d8d9da" font-size="13" font-weight="600">Actuator Output — when each room calls for heat/cool</text>
+<text x="140" y="664" fill="#d8d9da" font-size="11.5" text-anchor="end">Living Room</text>
+<rect x="150" y="650" width="1022" height="20" rx="2" fill="#ffffff08"/>
+<rect x="252.2" y="650" width="153.29999999999998" height="20" rx="2" fill="#46B78B" opacity="0.85"/>
+<rect x="712.1" y="650" width="132.86" height="20" rx="2" fill="#46B78B" opacity="0.85"/>
+<text x="140" y="692" fill="#d8d9da" font-size="11.5" text-anchor="end">Kitchen</text>
+<rect x="150" y="678" width="1022" height="20" rx="2" fill="#ffffff08"/>
+<rect x="456.59999999999997" y="678" width="122.64" height="20" rx="2" fill="#46B78B" opacity="0.85"/>
+<rect x="916.5" y="678" width="71.53999999999995" height="20" rx="2" fill="#46B78B" opacity="0.85"/>
+<text x="140" y="720" fill="#d8d9da" font-size="11.5" text-anchor="end">Bedroom</text>
+<rect x="150" y="706" width="1022" height="20" rx="2" fill="#ffffff08"/>
+<rect x="201.1" y="706" width="153.3" height="20" rx="2" fill="#46B78B" opacity="0.85"/>
+<rect x="558.8" y="706" width="224.83999999999997" height="20" rx="2" fill="#46B78B" opacity="0.85"/>
+<rect x="967.6" y="706" width="153.2999999999999" height="20" rx="2" fill="#46B78B" opacity="0.85"/>
+<text x="140" y="748" fill="#d8d9da" font-size="11.5" text-anchor="end">Bathroom</text>
+<rect x="150" y="734" width="1022" height="20" rx="2" fill="#ffffff08"/>
+<rect x="661" y="734" width="102.19999999999997" height="20" rx="2" fill="#46B78B" opacity="0.85"/>
+<text x="150" y="764" fill="#8e8e8e" font-size="10">24h ago</text>
+<text x="1172" y="764" fill="#8e8e8e" font-size="10" text-anchor="end">now</text>
+</svg>

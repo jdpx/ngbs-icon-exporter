@@ -13,6 +13,10 @@ to graph in Grafana.
 > Unofficial project. Not affiliated with or endorsed by NGBS. It only reads
 > data — it never changes any setting on your controller.
 
+![Grafana dashboard preview](docs/dashboard.svg)
+
+<sub>Preview with sample data — an importable dashboard is included, see [Grafana dashboard](#grafana-dashboard).</sub>
+
 ## Metrics
 
 All metrics are prefixed `ngbs_icon_`. Boolean flags are exposed as `0`/`1`
@@ -112,6 +116,20 @@ scrape_configs:
     static_configs:
       - targets: ["localhost:9924"]
 ```
+
+## Grafana dashboard
+
+An importable dashboard is included at [`grafana/dashboard.json`](grafana/dashboard.json).
+It shows system mode, water/flow and external temperature, pump and fault status,
+per-room temperature / humidity / dew-point, a current-state-vs-setpoints table,
+and a timeline of when each room is calling for heat or cool.
+
+To import: **Grafana → Dashboards → New → Import**, upload the JSON (or paste it),
+and pick your Prometheus datasource when prompted (the dashboard declares a
+`DS_PROMETHEUS` input, so it is not tied to any particular instance).
+
+> The image above uses sample data with placeholder room names; your rooms appear
+> under whatever names you set on the thermostats.
 
 ## How it works
 
