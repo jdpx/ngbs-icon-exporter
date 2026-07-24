@@ -1,0 +1,7 @@
+# Used by GoReleaser: the binary is already built for the target arch and
+# placed in the build context, so this just wraps it in a minimal image.
+FROM gcr.io/distroless/static-debian12:nonroot
+COPY ngbs-icon-exporter /ngbs-icon-exporter
+EXPOSE 9924
+USER nonroot:nonroot
+ENTRYPOINT ["/ngbs-icon-exporter"]

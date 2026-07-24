@@ -1,0 +1,69 @@
+# GoReleaser config — https://goreleaser.com
+# Publishes multi-arch static binaries + a multi-arch Docker image to GHCR.
+version: 2
+
+before:
+  hooks:
+    - go mod tidy
+
+builds:
+  - id: ngbs-icon-exporter
+    main: .
+    binary: ngbs-icon-exporter
+    env:
+      - CGO_ENABLED=0
+    ldflags:
+      - -s -w -X main.version={{ .Version }}
+    goos: [linux, darwin]
+    goarch: [amd64, arm64, arm]
+    goarm: ["7"]
+    ignore:
+      - goos: darwin
+        goarch: arm
+
+archives:
+  - formats: [tar.gz]
+    name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
+
+checksum:
+  name_template: "checksums.txt"
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - "^docs:"
+      - "^test:"
+      - "^ci:"
+
+dockers:
+  - image_templates:
+      - "ghcr.io/jdpx/ngbs-icon-exporter:{{ .Version }}-amd64"
+      - "ghcr.io/jdpx/ngbs-icon-exporter:latest-amd64"
+    dockerfile: Dockerfile.goreleaser
+    use: buildx
+    goarch: amd64
+    build_flag_templates:
+      - "--platform=linux/amd64"
+      - "--label=org.opencontainers.image.source=https://github.com/jdpx/ngbs-icon-exporter"
+      - "--label=org.opencontainers.image.version={{ .Version }}"
+  - image_templates:
+      - "ghcr.io/jdpx/ngbs-icon-exporter:{{ .Version }}-arm64"
+      - "ghcr.io/jdpx/ngbs-icon-exporter:latest-arm64"
+    dockerfile: Dockerfile.goreleaser
+    use: buildx
+    goarch: arm64
+    build_flag_templates:
+      - "--platform=linux/arm64"
+      - "--label=org.opencontainers.image.source=https://github.com/jdpx/ngbs-icon-exporter"
+      - "--label=org.opencontainers.image.version={{ .Version }}"
+
+docker_manifests:
+  - name_template: "ghcr.io/jdpx/ngbs-icon-exporter:{{ .Version }}"
+    image_templates:
+      - "ghcr.io/jdpx/ngbs-icon-exporter:{{ .Version }}-amd64"
+      - "ghcr.io/jdpx/ngbs-icon-exporter:{{ .Version }}-arm64"
+  - name_template: "ghcr.io/jdpx/ngbs-icon-exporter:latest"
+    image_templates:
+      - "ghcr.io/jdpx/ngbs-icon-exporter:latest-amd64"
+      - "ghcr.io/jdpx/ngbs-icon-exporter:latest-arm64"
